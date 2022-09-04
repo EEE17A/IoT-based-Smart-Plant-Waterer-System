@@ -45,16 +45,11 @@
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
-  
-  <!-- plugins:js -->
-  <!-- Total Page:js  -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-
+    
   <!-- inject:js -->
-  <!-- For sidebar toggle -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <script src="js/off-canvas.js"></script>
   <script src="js/template.js"></script>
-  <!-- For Sidebar and header skin -->
   <script src="js/settings.js"></script>
   <!-- endinject -->
 </body>
