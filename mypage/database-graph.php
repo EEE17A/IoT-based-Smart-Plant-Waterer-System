@@ -127,7 +127,7 @@
                 <figure>
                     <div id="stream-container" class="image-container hidden">
                         <div class="close" id="close-stream"></div>
-                        <img id="stream" src="https://drive.google.com/uc?export=view&id=1CFC2tBdcMMtttn1Gn4YABQEwhaBVsgF_" width= "50%">
+                        <img id="stream" src="https://drive.google.com/uc?export=view&id=1zsQVky6ngzZRFQnhjxn6mnooXAjHq-Fu" width= "50%">
                     </div>
                     <br/>
                     <div id="face_enroll">Click to get Live Preview</div>
@@ -153,7 +153,7 @@
         </section>
         <script>
           document.addEventListener('DOMContentLoaded', function (event) {
-            var baseHost = 'http://192.168.137.118'
+            var baseHost = 'http://192.168.137.45'
             var streamUrl = baseHost + ':81'
 
             const hide = el => {
@@ -387,13 +387,9 @@
   </div>
   <!-- container-scroller -->
   
-  <!-- plugins:js -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <script src="js/off-canvas.js"></script>
-
-  <script src="js/todolist.js"></script>
   <!-- inject:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <script src="js/off-canvas.js"></script>
   <script src="js/template.js"></script>
   <script src="js/settings.js"></script>
   <!-- endinject -->
