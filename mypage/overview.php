@@ -5,18 +5,13 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Star Admin2 </title>
+  <title>Automatic Plant Watering</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="vendors/feather/feather.css">
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="vendors/typicons/typicons.css">
   <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
-  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
   <!-- endinject -->
-  <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="js/select.dataTables.min.css">
+
   <!-- inject:css -->
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
@@ -35,27 +30,27 @@
       <!-- partial:partials/_sidebar.html -->
       <?php include('partials/sidebar.php') ?>
       <!-- partial -->
-      <img src="src=..\..\images\asdasdf.jpg" width="100%">
+      <!-- <img src="src=..\..\images\asdasdf.jpg" width="100%"> -->
+      <!-- <object data="images\EEE416.pdf">  -->
+      <embed src="https://drive.google.com/uc?export=view&id=1lgmOKLDNsxAl5WECIfm-FUox-vdRtLb0" type="application/pdf" height="800px" width="100%" class="responsive"></embed>
+      <!-- <embed src="https://drive.google.com/file/d/1lgmOKLDNsxAl5WECIfm-FUox-vdRtLb0/view?usp=sharing" type="application/pdf"  > -->
+      <!-- <embed src="images\EEE416.pdf" type="application/pdf"   height="300px" width="100%" class="responsive"> -->
+      <!-- <a href="images\EEE416.pdf">download</a> -->
+
+
     </div>
     <?php include('partials/footer.php') ?>
 
   </div>
-  <!-- plugins:js -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page -->
-  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
-  <!-- End plugin js for this page -->
+
+
   <!-- inject:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="js/off-canvas.js"></script>
-  <script src="js/hoverable-collapse.js"></script>
   <script src="js/template.js"></script>
   <script src="js/settings.js"></script>
-  <script src="js/todolist.js"></script>
   <!-- endinject -->
-  <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <!-- End custom js for this page-->
+
 </body>
 
 </html>
